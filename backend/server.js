@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 // create express app
 const app = express();
 
-//Enable all CORS requests
+//Enable all CORS requests (fixes CORS error)
 var cors = require("cors");
 app.use(cors());
 
